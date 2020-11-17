@@ -22,7 +22,7 @@ title: matRad
 email: contact@matrad.org
 description: >- # this means to ignore newlines until "baseurl:"
   matRad is an open source multi-modality radiation treatment planning sytem
-baseurl: "gh_test" # the subpath of your site, e.g. /blog
+baseurl: "matRad" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mat_rad
 github_username:  matRad
