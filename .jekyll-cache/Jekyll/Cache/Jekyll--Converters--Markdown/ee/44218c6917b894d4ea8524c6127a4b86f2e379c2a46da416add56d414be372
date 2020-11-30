@@ -1,0 +1,61 @@
+I"�<p><img src="https://rawgit.com/wiki/e0404/matRad/images/matrad_blank.svg" alt="matRad" height="10%" width="10%" /> is an open source software for radiation treatment planning of intensity-modulated photon, proton, and carbon ion therapy. matRad is developed for educational and research purposes. It is entirely written in <a href="http://www.mathworks.com/products/matlab">MATLAB</a>.</p>
+
+<p>For more information about this project check out the <a href="https://github.com/e0404/matRad/wiki/documents/matRad.pdf">matRad overview</a> or watch a recodring of the matRad webinar at the brown bag medical physics seminar at Massachusetts General Hospital.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/40_n7BIqLdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+
+<h1 id="help-us-fund-matrad">Help us fund matRad</h1>
+
+<p>The sustainable development of matRad costs time. To help us make a strong case towards our funders that we should continue to allocate resources for matRad’s development in the future, please <a id="writeEmail" href="mailto:contact@matrad.org?Subject=We use matRad at ..." target="_top">do email</a> us and let us know if you are using matRad in your department. We maintain a list of current user groups in a <a id="gotoMap" href="https://drive.google.com/open?id=1nG8_pE0RR5j1lp2iLLeBCeuwrO0&amp;usp=sharing">custom google map</a>. This helps us to show the relevance of our work for the radiation oncology community. As we do not get detailed download statistics from Github, such information is very valuable to us. Thank you!</p>
+
+<p>Also, if you are interested in irregular updates, please send us an <a href="mailto:contact@matrad.org?Subject=matRad newsletter" target="_top">email</a> to receive the matRad newsletter.</p>
+
+<h1 id="features">Features</h1>
+
+<p>matRad comprises</p>
+
+<ul>
+  <li>MATLAB functions to model the entire treatment planning workflow</li>
+  <li>Example patient data</li>
+  <li>Physical and biological base data for all required computations</li>
+</ul>
+
+<p>In particular we provide functionalities for</p>
+
+<ul>
+  <li>Ray tracing</li>
+  <li>Photon dose calculation</li>
+  <li>Proton dose calculation</li>
+  <li>Carbon ion dose calculation (including 3D RBE modeling)</li>
+  <li>Inverse planning (based on physical dose and biological effect)</li>
+  <li>Multileaf collimator sequencing</li>
+  <li>Basic treatment plan visualization and evaluation</li>
+</ul>
+
+<p>matRad is constantly evolving. If you are looking for a special feature do not hesitate and <a href="mailto:contact@matrad.org?Subject=matRad" target="_top">get in touch</a>.</p>
+
+<h1 id="documentation">Documentation</h1>
+
+<p>A <a href="https://github.com/e0404/matRad/wiki">Wiki</a> documentation is under constant development.</p>
+
+<h1 id="contact">Contact</h1>
+<p>If you have any questions or wish to contribute to the development of matRad you can either write an email to <a href="mailto:contact@matrad.org">contact@matrad.org</a>, use the GitHub functionalities to file a new issue, or directly fork the matRad repository and send pull requests with your own custom developments. What are you waiting for?</p>
+
+<h1 id="development-team">Development team</h1>
+<p>matRad development is driven by the research group <a href="https://www.dkfz.de/en/medphys/optimization_algorithms/optimization_algorithms.html">Radiotherapy Optimization</a> within the <a href="https://www.dkfz.de/en/medphys/">Division of Medical Physics in Radiation Oncology</a> at the <a href="https://www.dkfz.de/en/index.html">German Cancer Research Center DKFZ</a> in <a href="https://www.google.de/maps/place/German+Cancer+Research+Center/@49.41023,8.6730541,5129m/data=!3m1!1e3!4m5!3m4!1s0x4797c12f081fefc5:0x21c080e0d5b438c8!8m2!3d49.4144184!4d8.6719509?hl=en">Heidelberg</a>. Please see our <a href="https://github.com/e0404/matRad/blob/master/AUTHORS.txt">author list</a> for an overview of all code contributers; also beyond there are many people supporting matRad through consulting and provision of data.</p>
+
+<p>We are actively looking for beta testers that can provide external feedback on our code and developers that would like to take an active role in the future. Do not hesitate and <a href="mailto:contact@matrad.org?Subject=matRad" target="_top">get in touch</a>.</p>
+
+<h1 id="license-and-disclaimer">License and disclaimer</h1>
+<p>matRad is offered as a compilation with the Ipopt software package for large-scale nonlinear optimization. All the elements of the compilation of matRad and Ipopt are free software. You can redistribute and/or modify matRad’s source code provided as files with .m and .mat extension under the terms of the GNU GENERAL PUBLIC LICENSE Version 3 (GPL v3). You can also add to matRad the Ipopt functionality by using the precompiled mex files of the Ipopt optimizer in object code version which are licensed under the Eclipse Public License Version 1.0 (EPL v1.0), also made available for download via <a href="https://projects.coin-or.org/Ipopt">https://projects.coin-or.org/Ipopt</a>.</p>
+
+<p>In addition, we provide a matlab standalone version of the compilation of matRad and Ipopt, where the files of matRad and Ipopt are licensed under GPL v3 and EPL v1.0 respectively. The matlab standalone version is meant to be used by students for learning and practicing scientific programming.</p>
+
+<p>matRad is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+
+<p>Please note that we treat the compilation of matRad and Ipopt as separate and independent works (or modules, components, programs). Therefore, to the best of our understanding, the compilation of matRad and Ipopt is subject to the “Mere Aggregation” exception in section 5 of the GNU v3 and the exemption from “Contributions” in section 1. b) ii) of the EPL v1.0. Should this interpretation turn out to be not in compliance with the applicable laws in force, we have provided you with an additional permission under GNU GPL version 3 section 7 to allow you to use the work resulting from combining matRad with Ipopt.</p>
+
+<p>You will receive a copy of the GPL v3 and a copy of the EPL v1.0 in the file LICENSES.txt along with the compilation. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a> and/or <a href="http://opensource.org/licenses/EPL-1.0/">http://opensource.org/licenses/EPL-1.0/</a>.</p>
+
+:ET
