@@ -4,6 +4,6 @@ description: matRad - an open source multi-modality radiation treatment planning
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
-baseurl: "matRad_ghpagesTest"
+baseurl: "gh_test"
 
 
