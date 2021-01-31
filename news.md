@@ -2,7 +2,6 @@
 layout: news
 ---
 
-News
-======
+
 
 
