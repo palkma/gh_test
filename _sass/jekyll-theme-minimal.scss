@@ -329,6 +329,7 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
+	width: 500px;
   }
 
   header a small {
@@ -354,6 +355,10 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }
+  
+  section {
+	width:500px;
   }
     
   pre, code {
@@ -381,6 +386,10 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	}
+	
+  section {
+	width:500px;
+  }
 	
   .downloads {
     width:99%;
