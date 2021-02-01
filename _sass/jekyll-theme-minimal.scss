@@ -360,7 +360,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 480px, max-height: 100px) {
   body {
     padding:15px;
   }
