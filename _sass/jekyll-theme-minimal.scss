@@ -308,7 +308,6 @@ footer {
 }
 
 @media print, screen and (max-width:1200px){
-	@media print, screen (max-height: 950px){
 
   div.wrapper {
     width:auto;
@@ -342,10 +341,9 @@ footer {
     top:52px;
   }
 }
-}
+
 
 @media print, screen and (max-width:960px){
-@media print, screen and (max-height: 949px){
   body {
     word-wrap:break-word;
   }
@@ -362,10 +360,9 @@ footer {
     word-wrap:normal;
   }
 }
-}
+
 
 @media print, screen and (max-width:720px){
-@media print, screen and (max-height: 240px){
   body {
     padding:15px;
   }
@@ -392,7 +389,7 @@ footer {
     width:33%;
   }
 }
-}
+
 
 
 @media print {
