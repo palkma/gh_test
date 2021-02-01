@@ -307,7 +307,8 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-height: 950px)(max-width:1200px){
+@media print, screen and (max-height: 950px){
+	@media print, screen (max-width:1200px){
 
   div.wrapper {
     width:auto;
@@ -341,8 +342,10 @@ footer {
     top:52px;
   }
 }
+}
 
-@media print, screen and (max-height: 949px)(max-width:960px){
+@media print, screen and (max-height: 949px){
+@media print, screen and (max-width:960px){
   body {
     word-wrap:break-word;
   }
@@ -359,8 +362,10 @@ footer {
     word-wrap:normal;
   }
 }
+}
 
-@media print, screen and (max-height: 240px)(max-width:720px){
+@media print, screen and (max-height: 240px){
+@media print, screen and (max-width:720px){
   body {
     padding:15px;
   }
@@ -386,6 +391,7 @@ footer {
   .downloads li, .downloads li + li + li {
     width:33%;
   }
+}
 }
 
 
