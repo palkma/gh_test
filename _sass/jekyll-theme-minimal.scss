@@ -329,7 +329,6 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
-	width: 500px;
   }
 
   header a small {
@@ -356,9 +355,6 @@ footer {
   header ul, header p.view {
     position:static;
   }
-  section {
-	width: 500px;
-  }
     
   pre, code {
     word-wrap:normal;
@@ -370,9 +366,6 @@ footer {
 @media print, screen and (max-height: 240px){
   body {
     padding:15px;
-  }
-  section {
-	width: 500px;
   }
   
   .viewOnGitHub {
