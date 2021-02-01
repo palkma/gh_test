@@ -52,6 +52,10 @@ matRad development is driven by the research group [Radiotherapy Optimization](h
 
 We are actively looking for beta testers that can provide external feedback on our code and developers that would like to take an active role in the future. Do not hesitate and <a href="mailto:contact@matrad.org?Subject=matRad" target="_top">get in touch</a>.
 
+Scientific publications
+========
+matRad has been used for the conduct of several [peer-reviewed journal publications](https://apps.webofknowledge.com/summary.do?product=WOS&parentProduct=WOS&search_mode=GeneralSearch&qid=1&SID=C6yNJclz3KEE1Wan2Wu&&page=1&action=sort&sortBy=PY.D;LD.D;SO.A;VL.D;PG.A;AU.A&showFirstPage=1&isCRHidden=false).
+
 License and disclaimer
 ========
 matRad is offered as a compilation with the Ipopt software package for large-scale nonlinear optimization. All the elements of the compilation of matRad and Ipopt are free software. You can redistribute and/or modify matRad's source code provided as files with .m and .mat extension under the terms of the GNU GENERAL PUBLIC LICENSE Version 3 (GPL v3). You can also add to matRad the Ipopt functionality by using the precompiled mex files of the Ipopt optimizer in object code version which are licensed under the Eclipse Public License Version 1.0 (EPL v1.0), also made available for download via [https://github.com/coin-or/Ipopt](https://github.com/coin-or/Ipopt).
