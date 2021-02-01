@@ -342,34 +342,25 @@ footer {
   }
 }
 
-
 @media print, screen and (max-width: 960px){
   body {
-    padding:15px;
-  }
-  
-  .viewOnGitHub {
-    text-align: center;
-    width:99%;
-	margin-left: auto;
-	margin-right: auto;
-	}
-	
-  .viewOnGitHub li, .viewOnGitHub li {
-    width:33%;	
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	}
-
-  .downloads {
-    width:99%;
+    word-wrap:break-word;
   }
 
-  .downloads li, .downloads li + li + li {
-    width:33%;
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
   }
 }
+
+
 
 
 @media print {
