@@ -307,7 +307,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width:950px){
+@media print, screen and (max-height:950px){
 
   div.wrapper {
     width:auto;
