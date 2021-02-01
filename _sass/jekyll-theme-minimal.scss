@@ -307,8 +307,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-height: 950px)
-and (max-width:1200px){
+@media print, screen and (max-height: 950px)(max-width:1200px){
 
   div.wrapper {
     width:auto;
@@ -343,8 +342,7 @@ and (max-width:1200px){
   }
 }
 
-@media print, screen and (max-height: 949px)
-and (max-width:960px){
+@media print, screen and (max-height: 949px)(max-width:960px){
   body {
     word-wrap:break-word;
   }
@@ -362,8 +360,7 @@ and (max-width:960px){
   }
 }
 
-@media print, screen and (max-height: 240px)
-and (max-width:720px){
+@media print, screen and (max-height: 240px)(max-width:720px){
   body {
     padding:15px;
   }
