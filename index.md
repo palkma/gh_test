@@ -6,7 +6,7 @@ layout: default
 
 For more information about this project check out the [matRad overview](https://github.com/e0404/matRad/wiki/documents/matRad.pdf) or watch a recodring of the matRad webinar at the brown bag medical physics seminar at Massachusetts General Hospital.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/40_n7BIqLdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="353" src="https://www.youtube.com/embed/40_n7BIqLdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;
 
 Help us fund matRad
