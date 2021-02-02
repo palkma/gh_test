@@ -54,7 +54,7 @@ We are actively looking for beta testers that can provide external feedback on o
 
 Scientific publications
 ========
-matRad has been used for the conduct of several [peer-reviewed journal publications](https://apps.webofknowledge.com/summary.do?product=WOS&parentProduct=WOS&search_mode=GeneralSearch&qid=1&SID=C6yNJclz3KEE1Wan2Wu&&page=1&action=sort&sortBy=PY.D;LD.D;SO.A;VL.D;PG.A;AU.A&showFirstPage=1&isCRHidden=false).
+matRad has been used for the conduct of several [peer-reviewed journal publications](https://apps.webofknowledge.com/Search.do?product=WOS&SID=D6hJSlmbmUDoJVZMbIr&search_mode=GeneralSearch&prID=c5b3795d-6efb-412a-9a8c-4f6c0d3fdad6).
 
 License and disclaimer
 ========
