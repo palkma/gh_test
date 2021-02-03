@@ -308,7 +308,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-height:950px){
+@media print, screen and (max-height:750px){
 
   div.wrapper {
     width:auto;
@@ -345,7 +345,7 @@ footer {
 }
 
 
-@media print, screen and (max-height: 949px){
+@media print, screen and (max-height: 749px){
   body {
     word-wrap:break-word;
   }
