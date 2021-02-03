@@ -1,16 +1,12 @@
 ---
 layout: post
-title:  "News & upcoming Hackfest"
+title:  "Recent release, news & upcoming Hackfest"
 date:   2020-11-26 15:57:26 +0100
 categories: jekyll update
 author: Niklas
 ---
 
-Dear matRad users and enthusiasts,
-
- 
-
-despite the currently difficult situation, it’s about time for a matRad newsletter. And first of all, we are happy to announce our second major release: matRad "Blaise" (v2.10.1)
+We are happy to announce our second major release: matRad "Blaise" (v2.10.1).
 
 But before we swamp you with information about what’s changed and our future plans (which you can find further below), we want to direct your attention to something imminent:
 
@@ -62,14 +58,6 @@ A new, modular and extended graphical user interface
 Many more functionalities for Monte Carlo dose calculation (including an interface for TOPAS users!)
 If you are already very interested and want to try these functionalities out, let us know and we can point you to the right development branches.
 
- 
-
-Best wishes,
-
-Niklas (on behalf of the matRad development team)
-
- 
 
 P.S.:
 Not yet on our user-map http://map.matrad.org? Just let us know and we will add you asap!  
-You are receiving this e-mail because you asked to join the matRad Newsletter at some point in the past. If you wish to no longer receive matRad Newsletters in the future, just reply to this e-mail and let us know.
