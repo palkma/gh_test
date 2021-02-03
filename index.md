@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![matRad](<img src="/{{ site.github.repository_name}}/assets/img/matrad_hat.svg"){:height="10%" width="10%"} is an open source software for radiation treatment planning of intensity-modulated photon, proton, and carbon ion therapy. matRad is developed for educational and research purposes. It is entirely written in [MATLAB](http://www.mathworks.com/products/matlab).
+![matRad](<img src=/assets/img/matrad_hat.svg>){:height="10%" width="10%"} is an open source software for radiation treatment planning of intensity-modulated photon, proton, and carbon ion therapy. matRad is developed for educational and research purposes. It is entirely written in [MATLAB](http://www.mathworks.com/products/matlab).
 
 For more information about this project check out the [matRad overview](https://github.com/e0404/matRad/wiki/documents/matRad.pdf) or watch a recodring of the matRad webinar at the brown bag medical physics seminar at Massachusetts General Hospital.
 
