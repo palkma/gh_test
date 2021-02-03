@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "News & upcoming Hackfest"
+date:   2020-11-26 15:57:26 +0100
+categories: jekyll update
+author: Niklas
+---
+
+Dear matRad users and enthusiasts,
+
+ 
+
+despite the currently difficult situation, it’s about time for a matRad newsletter. And first of all, we are happy to announce our second major release: matRad "Blaise" (v2.10.1)
+
+But before we swamp you with information about what’s changed and our future plans (which you can find further below), we want to direct your attention to something imminent:
+
+ 
+
+The upcoming (virtual) matRad Hackfest:
+
+This yearly matRad coding session will take place next week on December 3 as virtual online hackathon. From 10:00 am (CET) on our group at DKFZ will dedicate this day to matRad development and give you the opportunity to join us via Zoom. You are free to use this opportunity to discuss projects, contributions, ask for help, request features, etc. You will be able to access the zoom room using http://hackfest.matrad.org on that day. You can also let us know beforehand to make sure we are not on a break when you join. We will be available to approx. 10:00 pm (CET).
+
+ 
+
+And now for the remaining release information and news…
+
+ 
+
+Changes in the development team:
+
+Previous matRad chief developer Mark passed on the baton to Niklas. While Mark is still involved in the development of matRad and you will occasionally find him contributing and replying to inquiries on GitHub, Niklas will now be the go-to person if you need help with your research projects in matRad.
+
+ 
+
+Release Info for matRad “Blaise”:
+
+Download: https://github.com/e0404/matRad/releases/tag/v2.10.1
+
+matRad 2.10.1 already marks the first patch to the original “Blaise” release 2.10.0 (which we allowed to breath on GitHub for some time in solitude), introducing quite a lot of changes, bug fixes and, primarily, the following new main features:
+
+Two open source Monte Carlo dose calculation engines have been integrated
+You can now call ompMC for photons (developed at the Pontifical Catholic University of Chile), and MCsquare for protons (http://openmcsquare.org/, developed at Université catholique de Louvain)
+Independent dose and CT resolutions
+You can now define a resolution specific to the dose calculation and optimization accuracy to explore accuracy-to-runtime trade-offs.
+New optimization interface
+The optimization has been refactored to an object-oriented design with allows easy integration of your own objective & constraint functions, optimization problem structures and optimizers. Besides IPOPT, optimization is now also possible with the "fmincon" interior-point method from Matlab's optimization toolbox.
+DICOM exporter
+You can now export CT slices, RTstruct and RTDose from matRad (requires the image processing toolbox) using the new matRad_DicomExporter
+Continuous Integration with TravisCI and Azure DevOps
+Changes and external contributions (i.e. Pull Requests) to matRad on github are now automatically tested in Matlab and Octave. This will ensure more stability of the code in the future.
+For a full list of changes see the ChangeLog.txt file in the matRad Code.
+
+ 
+
+What about future plans?
+Currently, we are working towards version 3 which will include some of the following:
+
+A multi-scenario framework for uncertainty quantification, robust optimization and 4D dose calculation & optimization.
+Helium (physical & biological) dose calculation
+Advanced biological modeling (including variable RBE proton models and a Helium model)
+A new, modular and extended graphical user interface
+Many more functionalities for Monte Carlo dose calculation (including an interface for TOPAS users!)
+If you are already very interested and want to try these functionalities out, let us know and we can point you to the right development branches.
+
+ 
+
+Best wishes,
+
+Niklas (on behalf of the matRad development team)
+
+ 
+
+P.S.:
+Not yet on our user-map http://map.matrad.org? Just let us know and we will add you asap!  
+You are receiving this e-mail because you asked to join the matRad Newsletter at some point in the past. If you wish to no longer receive matRad Newsletters in the future, just reply to this e-mail and let us know.
