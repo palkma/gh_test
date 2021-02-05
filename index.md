@@ -46,8 +46,6 @@ Contact
 ========
 If you have any questions or wish to contribute to the development of matRad you can either write an email to <a href="mailto:contact@matrad.org">contact@matrad.org</a>, use the GitHub functionalities to file a new issue, or directly fork the matRad repository and send pull requests with your own custom developments. What are you waiting for?
 
-{% twitter https://twitter.com/mat_rad maxwidth=500 limit=5 %}
-
 Development team
 ========
 matRad development is driven by the research group [Radiotherapy Optimization](https://www.dkfz.de/en/medphys/optimization_algorithms/optimization_algorithms.html) within the [Division of Medical Physics in Radiation Oncology](https://www.dkfz.de/en/medphys/) at the [German Cancer Research Center DKFZ](https://www.dkfz.de/en/index.html) in [Heidelberg](https://www.google.de/maps/place/German+Cancer+Research+Center/@49.41023,8.6730541,5129m/data=!3m1!1e3!4m5!3m4!1s0x4797c12f081fefc5:0x21c080e0d5b438c8!8m2!3d49.4144184!4d8.6719509?hl=en). Please see our [author list](https://github.com/e0404/matRad/blob/master/AUTHORS.txt) for an overview of all code contributers; also beyond there are many people supporting matRad through consulting and provision of data.
