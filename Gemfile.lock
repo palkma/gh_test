@@ -106,7 +106,6 @@ GEM
       nokogiri (~> 1.6)
       rexml (~> 3.2)
     yell (2.2.2)
-	jekyll-twitter-plugin
 
 PLATFORMS
   x64-mingw32
