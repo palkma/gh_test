@@ -1,6 +1,5 @@
-source 'https://rubygems.org'
-group :jekyll_plugins do
-    gem 'github-pages'
-end
+# frozen_string_literal: true
 
-gem 'jekyll-twitter-plugin'
+source 'https://rubygems.org'
+
+gemspec
