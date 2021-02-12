@@ -28,11 +28,11 @@ You can now define a resolution specific to the dose calculation and optimizatio
 - _New optimization interface:_        
 The optimization has been refactored to an object-oriented design with allows easy integration of your own objective & constraint functions, optimization problem structures and optimizers. Besides IPOPT, optimization is now also possible with the "fmincon" interior-point method from Matlab's optimization toolbox.    
 - _DICOM exporter:_     
-You can now export CT slices, RTstruct and RTDose from matRad (requires the image processing toolbox) using the new ```matRad_DicomExporter```    
+You can now export CT slices, RTstruct and RTDose from matRad (requires the image processing toolbox) using the new [```matRad_DicomExporter```](https://github.com/e0404/matRad/tree/v2.10.1/dicom/%40matRad_DicomExporter)    
 - _Continuous Integration with TravisCI and Azure DevOps:_       
 Changes and external contributions (i.e. Pull Requests) to matRad on github are now automatically tested in Matlab and Octave. This will ensure more stability of the code in the future.     
 
-For a full list of changes see the ```ChangeLog.txt``` file in the matRad Code.
+For a full list of changes see the [```ChangeLog.txt```](https://github.com/e0404/matRad/blob/v2.10.1/ChangeLog.txt) file in the matRad Code.
 
 **What about future plans?**      
 Currently, we are working towards version 3 which will include some of the following:       
