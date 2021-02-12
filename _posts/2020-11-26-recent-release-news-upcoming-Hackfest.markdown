@@ -6,7 +6,7 @@ categories: jekyll update
 author: Niklas
 ---
 
-We are happy to announce our second major release: **matRad "Blaise" (v2.10.1)**.    
+We are happy to announce our second major release: [**matRad "Blaise" (v2.10.1)**](https://github.com/e0404/matRad/releases/tag/v2.10.1).    
 But before we swamp you with information about what’s changed and our future plans (which you can find further below), we want to direct your attention to something imminent:
 
 **The upcoming (virtual) matRad Hackfest:**     
